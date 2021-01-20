@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Leitores Online</title>
+   
+    <link rel="stylesheet" href="_css/estilo.css">
+    <script src="_scripts/script.js"> </script>
+
+
+</head>
+<body onload="carregarJS()"> <!--Quando carregar já chama JS-->
+    <header id="cabecalho">
+        <div id="Parte1-cabecalho"> <!--PARTE 1 DO HEADER-->
+            <p>
+                <img id="imgIcone-Parte1" src="_imagens/Icone-Parte1.png">
+            </p>
+            <p id="infCidade">
+                Caruaru, Pernambuco
+            </p>
+            <p id="infDate">
+                .   .   .
+            </p>
+            <p id="infMenu">
+                <nav id = "menu1">
+                    <h1>Menu Principal</h1>
+                    <ul>
+                        <li> <a href = "resenhas.html">Resenhas</a> </li>
+                        <li> <a href = "autores.html">Autores</a> </li>
+                        <li> <a href = "frete.html">Notícias</a> </li>
+                        <li> <a href = "fale-conosco.html">Listas</a> </li>
+                        <li> <a href = "cadastrar.html">Contato</a> </li>
+                    </ul>
+                </nav>
+            </p>
+            <p>
+                <input type="button" value="Entrar" id="btnEntrar" onclick="entrar()">
+            </p>
+            <p id="infSociais"> <!--Direciona pra um link e abre uma nova aba-->
+                <a href="https://www.facebook.com/JuanSoulAxel" target="_blank"> 
+                  <img src="_imagens/Facebook-Parte1.png" id="imgFace">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5581981478640&text=%F0%9F%A4%9C%F0%9F%8F%BB%20%F0%9F%A4%9B%F0%9F%8F%BB" target="_blank">
+                    <img src="_imagens/Whatsapp-Parte1.png" id="imgWhat">
+                </a>
+                <a href="https://www.instagram.com/juansoulaxel/?hl=pt-br" target="_blank">
+                    <img src="_imagens/Instagram-Parte1.png" id="imgInst">
+                </a>
+                <a href="https://twitter.com/JuanSoulAxel" target="_blank">
+                  <img src="_imagens/Twitter-Parte1.png" id="imgTwit">
+                </a>
+            </p>
+        </div> <!--PARTE 2 DO HEADER-->
+        <div id="Parte2-cabecalho">
+            <p id="infTitulo">
+                LEITORES ONLINE
+            </p>
+        </div>
+        <div id="Parte3-cabecalho">            
+            <nav id = "menu2">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li> <a href = "Perfil.html">Perfil</a></li>
+                    <li> <a href = "minha-estante.html">Minha Estante</a> </li>
+                    <li> <a href = "favoritos.html">Favoritos</a> </li>
+                    <li> <a href = "amigos.html">amigos</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="corpo">
+        <div id="rolagem">
+            <img class="foto-rolagem" src="_imagens/imagem1-rolagem.jpg">
+            <img class="foto-rolagem" src="_imagens/imagem2-rolagem.jpg">
+            <img class="foto-rolagem" src="_imagens/imagem3-rolagem.jpg">
+            <img src="_imagens/imagem4-rolagem.jpg">
+        </div>
+    </section>
+    <footer id="rodape">
+        <div id=Parte1-rodape>
+            VOLTAR AO INÍCIO
+        </div>
+        <div id="Parte2-rodape">
+            
+        </div>
+        <div id="Parte3-rodape">
+            <p>
+				<br/> Copyrigth &copy; 2020 - Juan Axel <br/>
+				<a href = "https://www.facebook.com/JuanSoulAxel" target = "_blank"> Facebook </a> |
+				<a href = "https://www.instagram.com/juansoulaxel/?hl=pt-br" target = "_blank"> Instagram </a>
+			</p>
+        </div>
+    </footer>
+</body>
+</html>

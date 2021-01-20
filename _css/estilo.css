@@ -1,0 +1,224 @@
+/*Limpando css do navegador*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+/*Formatando header*/
+
+div#Parte1-cabecalho {
+    background-color:#1C1C1C;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+p#infCidade {
+    position: absolute; 
+    top: 2%;
+    left: 10%;
+}
+
+p#infDate {
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+
+p#infSociais {
+    position: absolute;
+    top: 1%;
+    left: 85%;
+}
+
+/*------------------------------*/
+
+div#Parte2-cabecalho {
+    background-color: #2F4F4F;
+    width: 100%;
+    height: 180px;
+}
+
+p#infTitulo {
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+p#infTitulo {
+    font: normal 70pt Apple;
+    color: white;
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 3%;
+}
+
+/*------------------------------*/
+
+div#Parte3-cabecalho {
+     background-color: #DCDCDC;
+     width: 100%;
+     height: 60px;
+}
+
+
+
+/*Formatando Menu*/
+
+nav#menu1 h1, nav#menu2 h1 { /*usei para os dois*/
+    display: none; /*não mostrar o título*/
+}
+
+nav#menu1 ul {
+    list-style: none;
+	text-transform: uppercase; /*maiúsculas*/
+    position: absolute; /*pra deixar absoluto e poder se mover*/
+    width: 72%;
+    text-align: right;
+	top: -5px; /*ficar em cima*/
+}
+
+nav#menu2 ul {
+    font: normal 20pt Arial;
+    list-style: none;
+    text-transform: uppercase; /*maiúsculas*/
+    text-align: center;
+}
+
+nav#menu1 li, nav#menu2 li { /*usei para os dois*/
+    display: inline-block; /*transformar em um bloco alinhado*/    
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0.8s;
+}
+
+nav#menu1 a { /*Cor das letras e tirando o sublinhado*/
+	color: white;
+	text-decoration: none;
+}
+
+nav#menu2 a { /*Cor das letras e tirando o sublinhado*/
+	color: black;
+	text-decoration: none;
+}
+
+nav#menu1 a:hover { /*quando passar por cima da letra muda o 'a' */
+	color: #1E90FF;
+	text-decoration: underline;
+}
+
+nav#menu2 a:hover { /*quando passar por cima da letra muda o 'a' */
+	text-decoration: underline red;
+}
+
+nav#menu2 { /*deixar invisível enquanto usuário não tiver cadastro*/
+    display: none;
+}
+
+input#btnEntrar { /*deixando botão ao lado do menu*/
+    position: absolute;
+    top: 1%;
+    right: 22%;
+    padding: 0.3%;
+    width: 5%;
+}
+
+input#btnEntrar:hover { /*modificar botão ao passar por cima*/
+    color: #1E90FF;
+    text-decoration: underline #1E90FF;
+}
+
+
+
+
+
+/*obs: eu usei para editar os dois menus*/
+
+
+
+/*Fomatando para ZOOM em Imagens*/
+
+img#imgFace, img#imgWhat, img#imgInst, img#imgTwit {  
+    overflow: hidden; /* para que não crie barras quando der o zoom*/
+}
+
+img#imgFace, img#imgWhat, img#imgInst, img#imgTwit {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.4s;    
+}
+
+img#imgFace:hover, img#imgWhat:hover, img#imgInst:hover, img#imgTwit:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/*Imagens de Section*/
+div#rolagem {
+    width: 1689px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto-rolagem {
+    position: absolute;
+    opacity: 0;
+    animation: animacao 20s infinite;
+}
+
+@keyframes animacao {
+    25% {
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.foto-rolagem:nth-child(1) {
+    animation-delay: 0s;
+}
+.foto-rolagem:nth-child(2) {
+    animation-delay: 5s;
+}
+.foto-rolagem:nth-child(3) {
+    animation-delay: 10s;
+}
+.foto-rolagem:nth-child(4) {
+    animation-delay: 15s;
+}
+
+/*Formatando Footer*/
+
+div#Parte1-rodape {   
+    font: normal 20pt fantasy;
+    color: white;
+    background-color: #4F4F4F;
+    text-align: center;
+    height: 30px;
+    margin-top: 1000px;
+    padding: 20px;
+}
+div#Parte1-rodape:hover {
+    background-color: #363636;
+}
+
+div#Parte2-rodape {
+    background-color: #1C1C1C;
+    height: 200px;
+}
+
+div#Parte3-rodape {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    text-indent: 0%;
+}
