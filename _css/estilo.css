@@ -3,7 +3,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 html, body {
@@ -46,7 +45,7 @@ p#infSociais {
 div#Parte2-cabecalho {
     background-color: #2F4F4F;
     width: 100%;
-    height: 50%;
+    height: 10%;
 }
 
 p#infTitulo {
