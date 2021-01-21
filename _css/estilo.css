@@ -3,6 +3,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -62,7 +67,7 @@ p#infTitulo {
 div#Parte3-cabecalho {
      background-color: #DCDCDC;
      width: 100%;
-     height: 60%;
+     height: 10%;
 }
 
 
@@ -132,8 +137,6 @@ input#btnEntrar:hover { /*modificar botão ao passar por cima*/
     color: #1E90FF;
     text-decoration: underline #1E90FF;
 }
-
-
 
 
 
