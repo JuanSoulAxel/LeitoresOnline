@@ -15,19 +15,19 @@ div#Parte1-cabecalho {
     background-color:#1C1C1C;
     color: white;
     width: 100%;
-    height: 50px;
+    height: 5%;
 }
 
 p#infCidade {
     position: absolute; 
     top: 2%;
-    left: 10%;
+    left: 5%;
 }
 
 p#infDate {
     position: absolute;
     top: 2%;
-    left: 20%;
+    left: 17%;
 }
 
 p#infSociais {
@@ -41,7 +41,7 @@ p#infSociais {
 div#Parte2-cabecalho {
     background-color: #2F4F4F;
     width: 100%;
-    height: 180px;
+    height: 50%;
 }
 
 p#infTitulo {
@@ -62,7 +62,7 @@ p#infTitulo {
 div#Parte3-cabecalho {
      background-color: #DCDCDC;
      width: 100%;
-     height: 60px;
+     height: 60%;
 }
 
 
@@ -79,7 +79,8 @@ nav#menu1 ul {
     position: absolute; /*pra deixar absoluto e poder se mover*/
     width: 72%;
     text-align: right;
-	top: -5px; /*ficar em cima*/
+    top: -1%; /*ficar em cima*/
+    left: 2%;
 }
 
 nav#menu2 ul {
@@ -91,8 +92,8 @@ nav#menu2 ul {
 
 nav#menu1 li, nav#menu2 li { /*usei para os dois*/
     display: inline-block; /*transformar em um bloco alinhado*/    
-    padding: 10px;
-    margin: 10px;
+    padding: 1%;
+    margin: 1%;
     transition: background-color 0.8s;
 }
 
@@ -122,7 +123,7 @@ nav#menu2 { /*deixar invisível enquanto usuário não tiver cadastro*/
 input#btnEntrar { /*deixando botão ao lado do menu*/
     position: absolute;
     top: 1%;
-    right: 22%;
+    right: 20%;
     padding: 0.3%;
     width: 5%;
 }
@@ -161,8 +162,8 @@ img#imgFace:hover, img#imgWhat:hover, img#imgInst:hover, img#imgTwit:hover {
 
 /*Imagens de Section*/
 div#rolagem {
-    width: 1689px;
-    height: 600px;
+    width: 100%;
+    height: 20%;
     position: relative;
     overflow: hidden;
 }
@@ -203,9 +204,9 @@ div#Parte1-rodape {
     color: white;
     background-color: #4F4F4F;
     text-align: center;
-    height: 30px;
+    height: 10%;
     margin-top: 1000px;
-    padding: 20px;
+    padding: 1%;
 }
 div#Parte1-rodape:hover {
     background-color: #363636;
@@ -213,7 +214,7 @@ div#Parte1-rodape:hover {
 
 div#Parte2-rodape {
     background-color: #1C1C1C;
-    height: 200px;
+    height: 150px;
 }
 
 div#Parte3-rodape {
