@@ -232,7 +232,7 @@ div#Parte3-rodape {
 
 /*Fortamatando Media Queries*/
 
-@media (min-width: 600px) and (max-width: 800px) { /*Toda tela que for menor que 600px quero que adicione esses estilos abaixo*/
+@media (max-width: 600px) { /*Toda tela que for menor que 600px quero que adicione esses estilos abaixo*/
     p#infTitulo {
         color: green;
     }
