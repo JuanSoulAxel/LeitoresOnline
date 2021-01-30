@@ -230,10 +230,9 @@ div#Parte3-rodape {
 @media (max-width: 600px) { /*Toda tela que for menor que 600px quero que adicione esses estilos abaixo*/
     
     /*Formatando header*/
-
     div#Parte1-cabecalho {
         width: 100%;
-        height: 100px;
+        height: 100p200x;
     }
 
     a#infLogo {
@@ -257,5 +256,10 @@ div#Parte3-rodape {
         top: 10%;
         right: 20%;
         width: 10%;
+    }
+
+    /*Imagens de Section*/   
+    div#rolagem {
+        width: 100%;
     }
 }
