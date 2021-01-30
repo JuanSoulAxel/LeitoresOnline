@@ -125,6 +125,7 @@ nav#menu2 { /*deixar invisível enquanto usuário não tiver cadastro*/
 
 input#btnEntrar { /*deixando botão ao lado do menu*/
     position: absolute;
+    border-radius: 100px;
     top: 1%;
     right: 20%;
     padding: 0.3%;
@@ -227,27 +228,27 @@ div#Parte3-rodape {
 
 /*Fortamatando Media Queries*/
 
-@media (max-width: 600px) { /*Toda tela que for menor que 600px quero que adicione esses estilos abaixo*/
+@media (max-width: 700px) { /*Toda tela que for menor que 600px quero que adicione esses estilos abaixo*/
     
     /*Formatando header*/
     div#Parte1-cabecalho {
         width: 100%;
-        height: 100p200x;
+        height: 90px;
     }
 
     a#infLogo {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     p#infDate {
         position: absolute;
         top: 2%;
-        left: 30%;
+        left: 38%;
     }
 
     /*Formatando Menu*/
     nav#menu1 ul {
-        text-align: center;
+        display: flex;
         left: 10%;
         top: 5%; /*ficar em cima*/
     }
